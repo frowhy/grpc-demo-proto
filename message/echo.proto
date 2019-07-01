@@ -4,7 +4,7 @@ option go_package = "grpc-demo-go/protobuf/message";
 option java_outer_classname = "EchoMessage";
 option objc_class_prefix = "EchoMessage";
 
-package test.protobuf.message;
+package grpc_demo_go.protobuf.message;
 
 // 输出消息
 message Echo {

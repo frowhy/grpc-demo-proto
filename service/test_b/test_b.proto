@@ -4,7 +4,7 @@ option go_package = "grpc-demo-go/protobuf/service/testB";
 option java_outer_classname = "TestBService";
 option objc_class_prefix = "TestBService";
 
-package test.protobuf.service.test_b;
+package grpc_demo_go.protobuf.service.test_b;
 
 import "message/echo.proto";
 import "message/meta.proto";
@@ -22,6 +22,6 @@ message EchoRequest {
 
 // 测试输出响应
 message EchoResponse {
-    test.protobuf.message.Meta meta = 1;
-    test.protobuf.message.Echo data = 2;
+    grpc_demo_go.protobuf.message.Meta meta = 1;
+    grpc_demo_go.protobuf.message.Echo data = 2;
 }
