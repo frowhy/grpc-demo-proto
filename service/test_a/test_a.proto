@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "test/protobuf/service/testA";
+option go_package = "grpc-demo-go/protobuf/service/testA";
 option java_outer_classname = "TestAService";
 option objc_class_prefix = "TestAService";
 

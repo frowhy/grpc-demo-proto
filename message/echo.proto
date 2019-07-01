@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "test/protobuf/message";
+option go_package = "grpc-demo-go/protobuf/message";
 option java_outer_classname = "EchoMessage";
 option objc_class_prefix = "EchoMessage";
 
