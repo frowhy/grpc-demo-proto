@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "test/protobuf/message";
+option java_outer_classname = "MetaMessage";
+option objc_class_prefix = "MetaMessage";
+
+package test.protobuf.message;
+
+// 元消息
+message Meta {
+    string method = 1;
+    string message = 2;
+    string pagination = 3;
+    int32 error_code = 4;
+}
